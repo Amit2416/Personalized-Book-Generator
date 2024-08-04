@@ -13,8 +13,8 @@ This project is a modular book generator that creates educational textbooks usin
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/book-generator.git
-   cd book-generator
+   git clone https://github.com/yourusername/personalized-book-generator.git
+   cd personalized-book-generator
    ```
 
 2. Create a virtual environment and activate it:
@@ -38,7 +38,7 @@ This project is a modular book generator that creates educational textbooks usin
 Run the main script to generate a textbook:
 
 ```
-python -m src.main
+python book_generation.py
 ```
 
 The generated chapters will be saved in the specified output directory (default is "HTML"), and a combined file will be created as `combined_textbook.md` in the same directory.
@@ -51,6 +51,3 @@ You can modify the `topic` and `learning_prompt` variables in `src/main.py` to g
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-This project is licensed under the MIT License.# Personalized-Book-Generator
